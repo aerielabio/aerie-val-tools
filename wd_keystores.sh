@@ -13,7 +13,7 @@ eth2-val-tools keystores \
   --source-max=$ACC_END_INDEX \
   --source-mnemonic="$WITHDRAWALS_MNEMONIC" \
   --out-loc=$KEYSTORE_WITHDRAW \
-  --prysm-pass="setokaiba"
+  --prysm-pass=$KEYSTORE_PASSWORD
 
 # Flags:
 #   -h, --help                     help for keystores
